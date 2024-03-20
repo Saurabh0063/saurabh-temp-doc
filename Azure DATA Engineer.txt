@@ -1,0 +1,38 @@
+Architecture Diagram           -------->   #389587 - Bingle car insurance
+LAB --> Create Azure Data Lake Storage account and drop input files
+LAB --> Create Azure Databricks Account Workspace
+LAB --> Azure SQL server
+LAB --> Connect SQL DS with SSMS and create MetaData / Schema table
+LAB --> Azure key vault to keep SQL server password and SAS token lab
+LAB --> Create a secret scope in Databricks
+LAB --> Create Cluster in Azure Databricks
+LAB --> Add notebook in Databricks and implement Business logic
+LAB --> Azure Data Factory for ABC client
+LAB --> Create Azure databricks linked service in ADF
+LAB --> Create ADF pipeline to call Notebook and test End to End Flow
+
+What is Kimball methodologies?
+
+-31.89880485	152.48394
+
+Technologies involved ->
+1.) ADLS - Azure Data Lake Storage Gen-2 
+2.) ADF - Azure Data Factory
+3.) DF pipeline
+4.) Azure Functions
+5.) Azure Key Vault
+6.) Azure SQL DB
+7.) SSMS - SQL server management Studio
+8.) AWS S3 Bucket
+9.) Connect ADF to Databricks
+10.) Connect Databricks to SQL server
+11.) Connect Databricks to ADLS
+12.) Connect S3 to Azure Cloud
+13.) Triggers
+14.) SAS Token
+15.) Create secrets scope in Databricks
+16.) Store secrets in Key Vault and access them.
+
+
+
+
